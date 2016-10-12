@@ -14,3 +14,6 @@ gemstash start
 
 gem install bundler
 bundle -v
+
+echo "setup done, going to try reproducing..."
+./repro.sh
