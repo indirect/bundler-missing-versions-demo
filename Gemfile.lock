@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  remote: http://localhost:9292/private/
+  specs:
+    rack (2.0.1.1.forked)
+    rack-obama (0.1.1)
+      rack
+    thor (0.19.1.1.forked)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack (= 2.0.1.1.forked)!
+  rack-obama
+  thor!
+
+BUNDLED WITH
+   1.13.3
