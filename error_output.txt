@@ -1,0 +1,19 @@
+Fetching gem metadata from http://localhost:9292/private/..
+Fetching version metadata from http://localhost:9292/private/.
+Fetching gem metadata from http://localhost:9292/private/..
+Fetching gem metadata from https://rubygems.org/..............
+Fetching version metadata from http://localhost:9292/private/..
+Fetching version metadata from https://rubygems.org/.
+Resolving dependencies...
+Bundler could not find compatible versions for gem "rack":
+  In snapshot (Gemfile.lock):
+    rack (= 2.0.1.1.forked)
+
+  In Gemfile:
+    rack (= 2.0.1.1.forked)
+
+    rack-obama was resolved to 0.1.1, which depends on
+      rack
+
+Running `bundle update` will rebuild your snapshot from scratch, using only
+the gems in your Gemfile, which may resolve the conflict.
